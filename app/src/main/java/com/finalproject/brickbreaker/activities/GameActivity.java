@@ -101,7 +101,7 @@ public class GameActivity extends Screen  implements IOnLevelAddedListener, IIni
 		wall_sprite = new ScaledImage(BitmapFactory.decodeResource(getResources(), R.drawable.bluewall), ScreenHeight() * 0.18f, true);
 
 		//play button
-		btn_Play = new Button(getResources().getString(R.string.Play), ScreenWidth() / 10, specialFont, getResources().getColor(R.color.black), ScreenWidth() / 2, ScreenHeight() * 0.45f, this);
+		btn_Play = new Button(getResources().getString(R.string.Play), ScreenWidth() / 15, specialFont, getResources().getColor(R.color.black), ScreenWidth() / 2, ScreenHeight() * 0.45f, this);
 		btn_Play.x = ScreenWidth() / 2 - btn_Play.getWidth() / 2;
 
 
